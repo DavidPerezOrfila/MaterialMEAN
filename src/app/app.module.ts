@@ -1,3 +1,4 @@
+import { AppRoutingModule } from './app-router.module';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgModule } from '@angular/core';
@@ -32,6 +33,7 @@ import { PostListComponent } from './posts/post-list/post-list.component';
     MatButtonModule,
     MatToolbarModule,
     MatExpansionModule,
+    AppRoutingModule,
     HttpClientModule
   ],
   providers: [],
